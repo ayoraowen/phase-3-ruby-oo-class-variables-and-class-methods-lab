@@ -39,11 +39,11 @@ class Song
     end
 
     def self.genre_count
-
+        @@genres.tally
     end
 
     def self.artist_count
-
+        @@artists.tally
     end
 
 
